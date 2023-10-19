@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.154.128:3306/user_center?serverTimezone=UTC
+    url: jdbc:mysql://43.138.71.154:3306/usercenter?serverTimezone=UTC
     username: root
     password: 123456
 

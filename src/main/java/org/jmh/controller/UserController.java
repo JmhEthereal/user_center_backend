@@ -31,6 +31,7 @@ import static org.jmh.constant.UserConstant.ADMIN_ROLE;
  */
 @RestController
 @RequestMapping("/user")
+@CrossOrigin(value = "http://43.138.71.154/")
 public class UserController {
     @Autowired
     private IUserService userService;
